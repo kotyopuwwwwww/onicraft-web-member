@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/images/background2.png);
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner {
+    position: relative;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+}
+
+.buttons {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.onisuke {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #79ff0b;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.onisuke:hover {
+    background: #79ff0b;
+}
+
+.onisuke:active {
+    background: #79ff0b;
+}
+
+.finger {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #ce2dff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.finger:hover {
+    background: #ce2dff;
+}
+
+.finger:active {
+    background: #ce2dff;
+}
+
+.rena {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #fcff57;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.rena:hover {
+    background: #fcff57;
+}
+
+.rena:active {
+    background: #fcff57;
+}
+
+.penko {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #68faff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.penko:hover {
+    background: #68faff;
+}
+
+.penko:active {
+    background: #68faff;
+}
+
+.kotyo {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #ff89ce;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.kotyo:hover {
+    background: #ff89ce;
+}
+
+.kotyo:active {
+    background: #ff89ce;
+}
+
+
+.button__text,
+.button__icon {
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 24px;
+    color: #000000;
+    height: 100%;
+}
+
+.button__icon {
+    font-size: 1.5em;
+    background: rgba(0, 0, 0, 0.08)
+}
