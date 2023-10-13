@@ -34,11 +34,11 @@ body {
     gap: 25px;
 }
 
-.download {
+.onisuke {
     display: inline-flex;
     height: 50px;
     padding: 0;
-    background: #a50000;
+    background: #79ff0b;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -50,19 +50,19 @@ body {
     text-align: center;
 }
 
-.download:hover {
-    background: #990000;
+.onisuke:hover {
+    background: #79ff0b;
 }
 
-.download:active {
-    background: #910000;
+.onisuke:active {
+    background: #79ff0b;
 }
 
-.members {
+.finger {
     display: inline-flex;
     height: 50px;
     padding: 0;
-    background: #ffffff;
+    background: #ce2dff;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -74,19 +74,19 @@ body {
     text-align: center;
 }
 
-.members:hover {
-    background: #ffffff;
+.finger:hover {
+    background: #ce2dff;
 }
 
-.members:active {
-    background: #ffffff;
+.finger:active {
+    background: #ce2dff;
 }
 
-.discord {
+.rena {
     display: inline-flex;
     height: 50px;
     padding: 0;
-    background: #6C82CC;
+    background: #fcff57;
     border: none;
     outline: none;
     border-radius: 5px;
@@ -98,13 +98,62 @@ body {
     text-align: center;
 }
 
-.discord:hover {
-        background: #6478BC;
+.rena:hover {
+    background: #fcff57;
 }
 
-.discord:active {
-    background: #5F71AD;
+.rena:active {
+    background: #fcff57;
 }
+
+.penko {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #68faff;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.penko:hover {
+    background: #68faff;
+}
+
+.penko:active {
+    background: #68faff;
+}
+
+.kotyo {
+    display: inline-flex;
+    height: 50px;
+    padding: 0;
+    background: #ff89ce;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    overflow: hidden;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+}
+
+.kotyo:hover {
+    background: #ff89ce;
+}
+
+.kotyo:active {
+    background: #ff89ce;
+}
+
 
 .button__text,
 .button__icon {
